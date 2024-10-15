@@ -1,14 +1,162 @@
+/* CSS for index.html */
+
 body {
-    background-color: lightblue;
+    margin: 0;
+    background-color: #a31717;
+    }
+    .marist_background {
+      width: 100vw;
+      height: 100vh;
+      background-image: url('/static/m_background.jpeg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .marist_footer {
+      width: 100vw;
+      height: 10vh;
+      background-color: black;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  #div1 {
+    background-color: red;
+    border: 2px outset white;
+    padding: auto;
+    border-radius: 5px;
+    margin: 20px;
   }
-  
+
+  #div2 {
+    background-color: red;
+    border: 2px outset white;
+    padding: auto;
+    border-radius: 5px;
+    margin: 20px;
+  }
   h1 {
-    color: blueviolet;
+    color: white;
     text-align: center;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+  }
+  h2 {
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(0,0,0,0,0.7);
   }
   
   p {
     font-family: verdana;
     font-size: 20px;
     text-align: center;
+    text-shadow: 2px 2px 5px rgb(0,0,0,0,0.7);
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    display: inline;
+  }
+  div{
+    color:white;
+  }
+  /*CSS for images*/
+  img {
+    display: block;
+    border-radius: 50%;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+  }
+  /*css for Nav Bar*/
+
+  nav {
+    background-color: rgba(0,0,0,0.7);
+    padding: 10px;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+  }
+
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  nav a {
+    transition: transform .2s ease, color 0.2s ease;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+
+  nav a:hover {
+    transform: scale(1.5);
+    text-decoration: underline;
+    color: red;
+    z-index: 1;
+    outline: 2px solid red;
+    
+  }
+  /*CSS for Forgot password page*/
+  .forgotPassword {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #a31717;
+    color: white;
+  }
+ 
+
+  /* CSS for MightSpace help page */
+
+  .mightSpace_help-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #a31717;
+    font-size: 50px;
+    font-family: fantasy;
+    color:whitesmoke;
+    text-align: center;
+  }
+  .mightSpace_help-text {
+    position: absolute;
+    color:white;
+    top: 60%;
+    left: 35%;
+    font-size: 20px;
+    margin: 0;
+  }
+  /*CSS for *working* login button*/
+  .login_button:hover {
+    background-color: orangered;
+  }
+  /*CSS for Resources page*/
+  .resources_page {
+    background-color: #a31717;
+    color: #333;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
+
+  /*CSS for login button*/
+  .login_button {
+    transition: transform 0.2s ease;
+  }
+
+  .login_button:hover {
+    transform: scale(4) rotate(45deg);
+    background-color: orangered;
   }
