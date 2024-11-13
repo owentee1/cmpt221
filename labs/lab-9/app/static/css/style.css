@@ -17,31 +17,6 @@ div {
   margin: auto;
 }
 
-#submit {
-  width: 25%;
-  background-color: #b103fc;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  display: block;
-  margin: auto;
-}
-
-#signup {
-  width: 25%;
-  background-color: #b103fc;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  display: block;
-  margin: auto;
-}
 #index {
   border-radius: 5px;
   background-color: #f2f2f2;
